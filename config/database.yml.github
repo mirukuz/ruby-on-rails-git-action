@@ -1,8 +1,5 @@
 test:
-  adapter: postgresql
-  encoding: unicode
-  database: my_simple_app_test
+  adapter: sqlite3
+  database: ":memory:"
   pool: 5
-  username: postgres
-  password: password
-  host: localhost
+  timeout: 5000
